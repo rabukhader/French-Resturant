@@ -1,0 +1,82 @@
+@media (min-width: 576px) and (max-width: 992px)
+{
+    .navbar .logo{
+        float: none;
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+    .navbar .nav{
+        float: none;
+        width: 100%;
+    }
+    .navbar .nav .list-item a{
+        font-size: 40px;
+
+    }
+    .about-img{
+        float: none;
+        width: 100%;
+    }
+    .about-content{
+        float: none;
+        width: 100%;
+    }
+}
+@media (max-width : 575px)
+{
+    .navbar .logo{
+        float: none;
+        width: 100%;
+    }
+    .navbar .nav{
+        float: none;
+        width: 100%;
+    }
+    .navbar .nav .list-item a{
+        font-size: 25px;
+
+    }
+    .header h1{
+        font-size: 20px;
+        font-weight: 400;
+        margin-bottom: 10px;
+    }
+    .header p {
+        font-size: 18px ;
+        margin-bottom: 12px;    
+    }
+    .header-content img{
+        width: 50%;
+    }
+    .about-img img{
+        display: none;
+    }
+    .about-img{
+        float: none;
+        width: 40%;
+    }
+    
+    .about-content{
+        float: none;
+        width: 100%;
+      
+    }   
+    .about-content p{
+        font-size: 15px;
+        width: 100%;
+        text-align: center;
+    }
+    .about-content ul li i{
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+    }
+    .about-content ul li span{
+        float: left;
+        margin-top: 35px;
+        margin-left: 30px;
+        font-size: 14px;
+    }
+}
+
